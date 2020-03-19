@@ -57,13 +57,19 @@ Order in which the formula is evaluated
 * Outer filter context
 * Row context
 
+
+
 Insert image 3 below : 
+
+
 <img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/3.PNG" />
 
     
      
 This is how DAX computes a calculate function 
 Insert image 4 below : 
+
+
 <img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/4.PNG" />
 
 
