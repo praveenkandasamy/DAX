@@ -4,12 +4,8 @@ Date - 19/03/2020
 link - https://www.youtube.com/watch?v=teYwjHkCEm0
 
 ### What is an filter context?
-Image : 
-![alt text] (img src = "https://github.com/praveenkandasamy/DAX/blob/master/1.PNGs" width="500" height="300")
-
-
-<img width="400" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/1.PNGs" />
-
+Image1 : 
+<img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/1.PNG" />
 
 * Tuple - Value for a set of columns
 * Filter - Table of tuples
@@ -28,6 +24,10 @@ Image :
                 )
 
 ##### Relationships and filters
+
+Image1 : 
+<img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/2.PNG" />
+
 * A filter applied automatically propagates to a related table via the relationship
 * So  relationship is just a tool to transfer a filter to a table
 * Filter directioni has to correct
@@ -35,14 +35,6 @@ Image :
 
 
 
-https://github.com/praveenkandasamy/DAX/blob/master/2.PNG
-
-
-
-Reference-style: 
-![image2][logo]
-
-[logo]: https://github.com/praveenkandasamy/DAX/blob/master/2.PNG "Logo Title Text 2"
 
 
 
