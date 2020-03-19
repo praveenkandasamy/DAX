@@ -11,10 +11,12 @@ link - https://www.youtube.com/watch?v=teYwjHkCEm0
 
 ### What is an filter context?
 Imageone: 
-![alt text](https://github.com/praveenkandasamy/DAX/blob/master/1.PNG")
+![alt text](https://github.com/praveenkandasamy/DAX/blob/master/1.PNG)
 
 
 * a set of values applied to a number
 * 
 * 
+
+
 
