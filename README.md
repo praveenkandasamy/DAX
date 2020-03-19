@@ -5,7 +5,7 @@ link - https://www.youtube.com/watch?v=teYwjHkCEm0
 
 ### What is an filter context?
 Image : 
-![alt text] <img src = "https://github.com/praveenkandasamy/DAX/blob/master/1.PNGs" width="200" height="100">
+![alt text] (img src = "https://github.com/praveenkandasamy/DAX/blob/master/1.PNGs" width="500" height="300")
 * Tuple - Value for a set of columns
 * Filter - Table of tuples
 * Filter context - Set of filters
