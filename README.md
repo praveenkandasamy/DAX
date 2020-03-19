@@ -31,7 +31,49 @@ Image1 :
 * A filter applied automatically propagates to a related table via the relationship
 * So  relationship is just a tool to transfer a filter to a table
 * Filter directioni has to correct
-* Best practice to have one to many
+* Best practice to have one to many and cross filter direction single
+* If you use both be clear on outcome
+* Rather than create a bi directional filter use a specific calculation to do this
+*  
+
+ ### Base table and expanded table
+ * This is for example when you have product category expanded to sales table
+ * 
+
+
+-----------
+            Red sales =
+            Calculate(
+                SUMX(
+                    Sales,
+                    Sales[Quantity]*Sales[Net Price]
+                ),
+                Product[Colour] = "Red"
+            )
+--------
+
+Order in which the formula is evaluated
+* Inner filter context
+* Outer filter context
+* Row context
+
+Insert image 3 below : 
+<img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/3.PNG" />
+
+    
+     
+This is how DAX computes a calculate function 
+Insert image 4 below : 
+<img width="600" height="400" src="https://github.com/praveenkandasamy/DAX/blob/master/4.PNG" />
+
+
+
+
+
+
+
+
+
 
 
 
